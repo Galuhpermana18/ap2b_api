@@ -6,7 +6,7 @@ import requests
 
 app = Flask(__name__)
 book_data = {"data": [{"nama": "Galuh Permana", "Kelas": "1IA15"},
-                      {"nama": "Amelia Herdwi Lestuti", "Kelas": "1IA22"}]}
+                      {"nama": "Suparman", "Kelas": "1IA22"}]}
 
 
 @app.route('/hello/', methods=['GET'])
